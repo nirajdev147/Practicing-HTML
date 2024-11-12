@@ -39,8 +39,8 @@
       bye
     </span>
     <br><br>
-    <!-- <ul>
-      <li>Item 1</li>
+    <ul>
+      <li >Item 1</li>
       <ul>
         <li>Sub Item 1</li>
         <li>Sub Item 2</li>
@@ -49,7 +49,7 @@
       <li>Item 2</li>
       <li>Item 3</li>
       <li>Item 4</li>
-      <ol>
+      <ol type="I">
         <li>Sub Item 1</li>
         <li>Sub Item 2</li>
         <li>Sub Item 3</li>
@@ -58,7 +58,7 @@
     </ul>
     <ol>
       <li>Item 1</li>
-      <ol>
+      <ol type="A">
         <li>Sub Item 1</li>
         <li>Sub Item 2</li>
         <li>Sub Item 3</li>
@@ -66,18 +66,18 @@
       <li>Item 2</li>
       <li>Item 3</li>
       <li>Item 4</li>
-      <ol>
+      <ol type="a">
         <li>Sub Item 1</li>
         <li>Sub Item 2</li>
         <li>Sub Item 3</li>
       </ol>
       <li>Item 5</li>
-    </ol> -->
+    </ol>
 
 
 
 <!------------------------ Start of html table-------------------------->
-    <!-- <table>
+    <table border="1" width="300" bgcolor="yellow">
       <thead>
         <caption>Item 1</caption>
       <tr>
@@ -85,13 +85,40 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr align="center">
         <td>John Doe</td>
         <td>30</td>
         <td>New York</td>
       </tr>
       </tbody>
-    </table> -->
+    </table>
+    <br><br>
+    <table border="1" width="300" bgcolor="red">
+      <thead>
+        <caption>Item 2</caption>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+      </tr>
+      <tr align="center">
+        <td>Jane Doe</td>
+        <td>28</td>
+        <td>Los Angeles</td>
+      </tr>
+      <tr align="center">
+        <td>Alice Doe</td>
+        <td>32</td>
+        <td>Chicago</td>
+      </tr>
+      <tr align="center">
+        <td>Bob Doe</td>
+        <td>25</td>
+        <td>San Francisco</td>
+      </tr>
+    </table>
+<br><br>
+    
 <!------------------------ End of html table-------------------------->
 
 <!------------------------ Start of html form------------------------->
@@ -154,11 +181,26 @@ Select your fav city
 
 <!------------------------ End of iframe tag---------------------------------------------------->
 
+<!-------------------------------------Start of audio tag------------------------------------------>
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<!-------------------------------------End of audio tag------------------------------------------>
+
+
+
+
 <!-----------------------------start of video section tag----------------------------------------->
 
-<video width="560" height="315" src=""></video>
-
+<video width="560" height="315">
+  <source src="movie.mp4" type="video/mp4"/> 
+  Your browser does not support the video tag.
+</video>
 <!-----------------------------End of video section tag----------------------------------------->
+
+
 
 
 
